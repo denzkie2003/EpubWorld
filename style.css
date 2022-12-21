@@ -1,4 +1,5 @@
-*{box-sizing: border-box}
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+*{box-sizing: border-box;font-family: 'Comfortaa', cursive;}
 body {
   margin: 0;
   padding: 0;
