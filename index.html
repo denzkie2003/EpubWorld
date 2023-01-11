@@ -4,95 +4,98 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Let you download newest translated novels in epub format for free"/>
-  <title>Freenovels - Home for Epub Novels</title>
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Freenovels - Home for Epub Novels" />
-  <meta property="og:description" content="Let you download newest translated novels in epub format for free" />
-  <meta property="og:url" content="https://freenovels.me/" />
-  <meta property="og:site_name" content="Freenovels" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://freenovels.me/backgroundbg.png/"/>
-  <meta property="fb:app_id" content="" />
-  <meta property="og:title" content="Freenovels - Home for Epub Novels"/>
-  <meta name="twitter:site" content="@Freenovels" />
-  <meta name="twitter:title" content="Freenovels - Home for Epub Novels" />
-  <meta name="twitter:description" content="Let you download newest translated novels in epub format for free" />
-  <meta name="twitter:image" content="https://freenovels.me/backgroundbg.png/" />
-  <meta name="theme-color" content="#000000"/>
+  <meta name="description" content="Download newest translated novels for free">
+  <meta name="image" content="">
+  <meta property="og:title" content="Freenovels">
+  <meta property="og:description" content="Downloas newest translated novels for free">
+  <meta property="og:image" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"/>
+  <title>Freenovels</title>
+  
   <!-- HTML -->
   
-  <link rel="shortcut icon" type="image/x-icon" href="https://freenovels.me/favicon.png" size="512x512">
 
   <!-- Custom Styles -->
-  <link rel="stylesheet" href="bootstrap/bootstrap.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="bg-dark container-fluid p-0">
+<body>
   
-  <!-- Main Container -->
-  <div class="main-container container-fluid">
-    
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-      <div class="container-fluid">
-         <a class="navbar-brand" href="#">Freenovels</a>
-         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-           <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="collapsibleNavbar">
-             <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/list-novels.html">List of Novels</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/about-us.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://ko-fi.com/aetherflames">Support Us</a>
-                </li>
-           </ul>
-        </div>
-       </div>
-    </nav>
-    
-    <!-- Latest -->
-    <div class="container p-2">
-      <h5 class="text-light m-0 p-0">Latest Updates</h5>
-      <div class="container-fluid  pt-3">
-        
-        <ul id="latest" class="list-group p-0">
-          <li class="list-group-item bg-dark p-0">
-           <a href="/series/A-Reincarnation-Romantic-Comedy-Of-A-Hero-And-A-Witch.html" class="d-inline-flex">
-             <img class="rounded" src="https://cdn.novelupdates.com/images/2021/10/A-Reincarnation-Romantic-Comedy-Of-A-Hero-And-A-Witch.jpg" alt="https://cdn.novelupdates.com/images/2021/10/A-Reincarnation-Romantic-Comedy-Of-A-Hero-And-A-Witch.jpg">
-             <div class="content container-fluid">
-               <p id="title">A Reincarnation Romantic Comedy Of A Hero And A Witch</p>
-               <p id="genre" class="text-success">Genre: Comedy, Fantasy Romance, School Life, Shounen</p>
-               <p id="dateupdate">Updated: 12/21/2023</p>
+  
+  <!-- Main Page Layout -->
+  <div class="main-page">
+      
+      <nav class="navbar navbar-expand-sm bg-light navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="favicon/fav1.png" width="150"/></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                     <span class="navbar-toggler-icon"></span>
+                </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Light Novels</a>
+                        <ul class="dropdown-menu">
+   						 <li><a class="dropdown-item" href="#">EPUB</a></li>
+  						  <li><a class="dropdown-item" href="#">PDF</a></li>
+					   </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                 </ul>
              </div>
-           </a>
-          </li>
-        </ul>
-        
+         </div>
+      </nav>
+      
+      <!-- Post Display -->
+      <div class="post-displat-container container-fluid" id="post-displat">
+      	<h3 class="newupdate text-primary mt-3"><strong>New Updates</strong></h3>
+          <ul class="list-group" id="post">
+          	<li class="list-group-item card">
+          	        <span id="badge" class="badge bg-primary p-2 m-1">Light Novel</span><span id="badge" class="badge bg-warning p-2 m-1">Epub</span>
+          			<img class="card-img-top" src="https://cdn.novelupdates.com/images/2022/04/I-Have-A-Rejuvenated-Exwife-In-My-Class.jpg" alt="Photo Cover"/>
+          			<div class="card-body">
+          				<h4 id="title" class="text-dark card-title"><strong>I Have A Rejuvenated Ex-wife In My Class Epub</strong></h4>
+                          <p class="card-text">This novel now is available to download</p>
+          				<a href="#" class="text-primary card-link"><span>Preview Content</span></a>
+            		  </div>
+                      <div class="card-footer">
+							<p class="card-text">Posted by DenZ</p>
+					  </div>
+              </li>
+          </ul>
       </div>
-     <!-- Footer -->
-     
-    </div>
-    <footer class="container-fluid bg-dark p-3">
-      <div class="container p-0 m-0 d-flex">
-        <span><a href="https://freenovels.me/">Home</a> | <a href="https://ko-fi.com/aetherflames">Support Us</a></span>
-      </div>
-      <p>@Freenovels Alright Reserve 2023</p>
-    </footer>
+ 
+ 
+     <div class="container-fluid">
+     	<h5 class="text-primary mt-5"><strong>Recommended</strong></h5>
+         <ul id="recommended" class="list-group">
+         	<li class="list-group-item">
+         		<a href="#" style="text-decoration:none;color:inherit;">
+         					<img src="https://pbs.twimg.com/media/FSGGlJSaUAAPUJY.jpg" alt="Cover Photo" width="100%" height="200"/>
+                         	<p class="title text-light">I Have A Rejuvenated Ex-wife In My Class Epub</p>
+         		</a>
+             </li>
+         </ul>
+     </div>
+      
   </div>
   
+  <!-- Footer -->
+  <footer class="container-fluid mt-3" style="text-align:center;">
+  	<div><span style="font-size: 10pt" class="text-dark">Alright Reserve ® 2023</span></div>
+      <div><span style="font-size: 10pt" class="text-dark">Copyright © Freenovels</span></div>
+  </footer>
+  
+  
   <!-- Project -->
-  <script src="bootstrap/bootstrap.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   <script src="main.js"></script>
 </body>
 </html>
