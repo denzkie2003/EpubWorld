@@ -1,0 +1,141 @@
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://freenovels.me/">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"/>
+  <link rel="shortcut icon" href="/favicon/logo.png" type="image/x-icon" />
+  <title></title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    
+    <!-- Main Page Layout -->
+
+  <div class="main-page">
+
+      
+      <nav class="navbar navbar-expand-sm bg-light navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/"><img src="/favicon/fav1.png" width="150"/></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                     <span class="navbar-toggler-icon"></span>
+                </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Light Novels</a>
+                        <ul class="dropdown-menu">
+   						 <li><a class="dropdown-item" href="/list_of_epub.html">EPUB</a></li>
+  						  <li><a class="dropdown-item" href="/list_of_pdf.html">PDF</a></li>
+					   </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about_us.html">About Us</a>
+                    </li>
+                 </ul>
+             </div>
+         </div>
+      </nav>
+      
+      <div class="container-fluid mt-3">
+          
+          <div class="card">
+              <div class="card-header">
+
+                  <span><a href="/" class="card-link">Home</a></span> >
+                  <span id="postTitle">I Have A Rejuvenated Ex-wife In My Class Epub</span>
+              </div>
+              <img class="card-img-top" id="cover" src="https://cdn.novelupdates.com/images/2022/04/I-Have-A-Rejuvenated-Exwife-In-My-Class.jpg" alt="Photo Cover" />
+              <div class="card-body">
+                  <blockquote class="card-text blockquote" id="synopsis">
+                      Put synopsis
+				</blockquote>
+                  <table class="table-borderless">
+                      <tr>
+                         <td><strong>Type:</strong></td>
+
+                         <td>Web Novel</td>
+                      </tr>
+                      <tr>
+                         <td><strong>Status:</strong></td>
+                         <td>Ongoing</td>
+                      </tr>
+                      <tr>
+                         <td><strong>Genre:</strong></td>
+                         <td>Put Genre</tr></tdComedy>
+                      </tr>
+                      <tr>
+                         <td><strong>Associated Names:</strong></td>
+                         <td>Put Name</td>
+                      </tr>
+                  </table>
+                  <div class="volumes mt-3">
+                  	<p class="text-success h4"><strong>Download Volumes</strong></p>
+                      <a href="#" class="btn btn-outline-primary" onclick="">Volume 1</a>
+                  </div>
+              </div>
+          </div>
+          
+      </div>
+      
+    </div>
+    
+    <!-- Footer -->
+
+  <footer class="container-fluid mt-3" style="text-align:center;">
+
+  	<div><span style="font-size: 10pt" class="text-dark">Alright Reserve ® 2023</span></div>
+      <div><span style="font-size: 10pt" class="text-dark">Copyright © Freenovels</span></div>
+  </footer>
+    
+    <!-- Project -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+  <script src="/main.js"></script>
+  <script>
+  	
+      let description,title,thumbnail,metaDescription,fbDescription,metaThumbnail,metaTitle,fbThumbnail,fbTitle;
+      
+      description = document.getElementById("synopsis").innerText;
+      title = document.getElementById("postTitle").innerText;
+      thumbnail = document.getElementById("cover").src;
+      
+      //Meta Tags Html
+      metaDescription = document.createElement("meta");
+      metaDescription.name = "description";
+      metaDescription.content = description;
+      metaThumbnail = document.createElement("meta");
+      metaThumbnail.name = "image";
+      metaThumbnail.content = thumbnail;
+      metaTitle = element.title;
+      metaTitle = title;
+      
+      //Facebook Meta Tag
+      fbDescription = document.createElement("meta");
+      fbDescription.property = "og:description";
+      fbDescription.content = description;
+      fbThumbnail = document.createElement("meta");
+      fbThumbnail.property = "og:image";
+      fbThumbnail.content = thumbnail;
+      fbTitle = document.createElement("meta");
+      fbTitle.property = "og:title";
+      fbTitle.content = title;
+  
+  </script>
+</body>
+</html>

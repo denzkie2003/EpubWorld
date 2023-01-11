@@ -33,7 +33,7 @@ body {
 }
 #post > li img{
 	width: 100%;
-	height: 100%;
+	height: auto;
 }
 /*#post > li a img:hover{
 	position: relative;
@@ -47,26 +47,14 @@ body {
 		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	}
 }
-#recommended{
-	display: grid;
-	grid-gap: 10px;
-}
-#recommended > li{
-	width: 100%;
+.carousel-item img{
 	height: 250px;
-	position: relative;
-	border-radius: 10px;
-	overflow: hidden;
 }
-#recommended > li a img{
-	width: 100%;
-	height: 100%;
+.carousel-item .carousel-caption h3{
+	background: rgba(0,0,0,0.5);
+	padding: 10px;
 }
-#recommended > li a p.title{
-	width: 100%;
-	padding: 8px;
-	background: rgba(0,0,0,0.3);
-	position: absolute;
-	left: 0;
-	bottom: -15;
+.carousel-item .carousel-caption h3 a{
+	text-decoration: none;
+	color: inherit;
 }

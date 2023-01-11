@@ -5,13 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Download newest translated novels for free">
-  <meta name="image" content="">
+  <meta name="image" content="favicon/cover.png">
   <meta property="og:title" content="Freenovels">
-  <meta property="og:description" content="Downloas newest translated novels for free">
-  <meta property="og:image" content="">
+  <meta property="og:description" content="Download newest translated novels for free">
+  <meta property="og:image" content="favicon/cover.png"/>
   <meta property="og:type" content="website">
-  <meta property="og:url" content="">
+  <meta property="og:url" content="https://freenovels.me/">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"/>
+  <link rel="shortcut icon" href="favicon/logo.png" type="image/x-icon" />
   <title>Freenovels</title>
   
   <!-- HTML -->
@@ -41,17 +42,61 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Light Novels</a>
                         <ul class="dropdown-menu">
-   						 <li><a class="dropdown-item" href="#">EPUB</a></li>
-  						  <li><a class="dropdown-item" href="#">PDF</a></li>
+   						 <li><a class="dropdown-item" href="/list_of_epub.html">EPUB</a></li>
+  						  <li><a class="dropdown-item" href="/list_of_pdf.html">PDF</a></li>
 					   </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="/about_us.html">About Us</a>
                     </li>
                  </ul>
              </div>
          </div>
       </nav>
+      
+      <div class="container-fluid">
+      	<!-- Carousel -->
+	  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+         <!-- Indicators/dots -->
+ 	    <div class="carousel-indicators">
+    		<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    		<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+   		 <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  	   </div>
+         <!-- The slideshow/carousel -->
+  	   <div class="carousel-inner">
+    		<div class="carousel-item active">
+    	      <span class="badge bg-danger m-1 p-2">Recommended</span>
+      		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFsyqj9sM8fAra5xdAgaIxbJtPPcO2Mxfcig&usqp=CAU" alt="" class="d-block w-100">
+               <div class="carousel-caption">
+   			 	<h3 class="text-light"><a href="#">Private Tutor to the Duke's Daughter</a></h3>
+  		 	</div>
+    		</div>
+    		<div class="carousel-item">
+    	      <span class="badge bg-danger m-1 p-2">Recommended</span>
+      		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS81uoKvPthJrlzQSxR1LVUSi812HK3fCr2Sg&usqp=CAU" alt="Chicago" class="d-block w-100">
+              <div class="carousel-caption">
+   			 	<h3 class="text-light"><a href="#">Reborn to Master the Blade: From Hero-King to Extraordinary Squire</a></h3>
+  		 	</div>
+    		</div>
+    		<div class="carousel-item">
+    	      <span class="badge bg-danger m-1 p-2">Recommended</span>
+      		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVe2WJwbKaiK41DjpIOc0VasWvzkXOJLOh6w&usqp=CAU" alt="New York" class="d-block w-100">
+              <div class="carousel-caption">
+   			 	<h3 class="text-light"><a href="#">The Eminence in Shadow</a></h3>
+  		 	</div>
+    		</div>
+  	</div>
+      <!-- Left and right controls/icons -->
+ 	 <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+   		 <span class="carousel-control-prev-icon"></span>
+  	</button>
+  	<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    		<span class="carousel-control-next-icon"></span>
+ 	 </button>
+
+      </div>
+      </div>
       
       <!-- Post Display -->
       <div class="post-displat-container container-fluid" id="post-displat">
@@ -62,8 +107,8 @@
           			<img class="card-img-top" src="https://cdn.novelupdates.com/images/2022/04/I-Have-A-Rejuvenated-Exwife-In-My-Class.jpg" alt="Photo Cover"/>
           			<div class="card-body">
           				<h4 id="title" class="text-dark card-title"><strong>I Have A Rejuvenated Ex-wife In My Class Epub</strong></h4>
-                          <p class="card-text">This novel now is available to download</p>
-          				<a href="#" class="text-primary card-link"><span>Preview Content</span></a>
+                          <p class="card-text">This novel is now available to download</p>
+          				<a href="/series/I Have A Rejuvenated Ex-wife In My Class Epub.html" class="text-primary card-link"><span>Preview Content</span></a>
             		  </div>
                       <div class="card-footer">
 							<p class="card-text">Posted by DenZ</p>
@@ -71,20 +116,7 @@
               </li>
           </ul>
       </div>
- 
- 
-     <div class="container-fluid">
-     	<h5 class="text-primary mt-5"><strong>Recommended</strong></h5>
-         <ul id="recommended" class="list-group">
-         	<li class="list-group-item">
-         		<a href="#" style="text-decoration:none;color:inherit;">
-         					<img src="https://pbs.twimg.com/media/FSGGlJSaUAAPUJY.jpg" alt="Cover Photo" width="100%" height="200"/>
-                         	<p class="title text-light">I Have A Rejuvenated Ex-wife In My Class Epub</p>
-         		</a>
-             </li>
-         </ul>
-     </div>
-      
+
   </div>
   
   <!-- Footer -->
